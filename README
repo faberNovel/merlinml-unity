@@ -1,0 +1,10 @@
+Generate the static library using
+
+Run ./build.sh
+
+And copy the result .a static library into your Unity project along with the Merlin.mlpackage model. into Assets/Plugins/iOS/MerlinML
+
+
+Also put the post build script into your Editor/ folder. you can find it under Sources/PostBuild/IOSPostbuild.cs.
+
+You can find some example of using the model in C# in the Soures/example folder.
